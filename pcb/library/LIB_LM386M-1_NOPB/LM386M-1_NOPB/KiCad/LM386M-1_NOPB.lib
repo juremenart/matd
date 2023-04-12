@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model LM386M-1_NOPB
+#/155889/360937/2.47/8/3/Integrated Circuit
+DEF LM386M-1_NOPB IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "LM386M-1_NOPB" 1150 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1150 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/06e8/0900766b806e88be.pdf" 1150 0 50 H I L CNN
+F4 "Wide Input Voltage Low Power Audio Amplifier with Internal Gain" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM386M-1/NOPB" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "LM386M-1/NOPB" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/lm386m-1nopb/texas-instruments" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "926-LM386M-1/NOPB" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM386M-1-NOPB?qs=QbsRYf82W3GaJvrwUmrW3g%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X GAIN_1 1 0 0 200 R 50 50 0 0 P
+X -INPUT 2 0 -100 200 R 50 50 0 0 P
+X +INPUT 3 0 -200 200 R 50 50 0 0 P
+X GND 4 0 -300 200 R 50 50 0 0 P
+X GAIN_2 8 1300 0 200 L 50 50 0 0 P
+X BYPASS 7 1300 -100 200 L 50 50 0 0 P
+X VS 6 1300 -200 200 L 50 50 0 0 P
+X VOUT 5 1300 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

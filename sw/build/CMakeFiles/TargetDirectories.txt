@@ -1,0 +1,10 @@
+C:/work/matd/matd/sw/build/CMakeFiles/edit_cache.dir
+C:/work/matd/matd/sw/build/CMakeFiles/rebuild_cache.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/rebuild_cache.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/access_phase_ctrl.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/disable_array.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/access_pwm_gen.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/move_ph_ctrl.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/load_array.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/set_pwm_out.dir
+C:/work/matd/matd/sw/build/cli/CMakeFiles/edit_cache.dir

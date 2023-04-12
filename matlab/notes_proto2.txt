@@ -1,0 +1,3 @@
+- SG33, SG34 seems to be shorted
+- SG57 (prvi v zadnji vrstici) broken
+- SG40+SG64 (SG40 na drugi plati) broken

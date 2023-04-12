@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC4127YME
+D 1.5A 2xHigh Spd MOSFET Driver,MIC4127YME Micrel MIC4127YME, Dual MOSFET Power Driver 1.5A, 4.5  20 V, Non-Inverting, 8-Pin SOIC
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-27-28-Data-Sheet-20006084A.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "LM386M-1_NOPB"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-08-19-07:12:46)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

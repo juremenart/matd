@@ -1,0 +1,2630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\work\matd\matd\pcb\kicad_8x8\matd_8x8\matd_8x8.sch</source>
+    <date>11/10/2020 1:22:17 PM</date>
+    <tool>Eeschema (5.1.7)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>matd_8x8.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SG1_SG16/" tstamps="/609D38B9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sg1_sg16.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/SG17_SG32/" tstamps="/610333DC/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sg17_sg32.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/SG33_SG48/" tstamps="/6104BC2D/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sg33_sg48.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/SG49_SG64/" tstamps="/6104BC40/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sg49_sg64.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Conn_02x20_Odd_Even</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>610FE36A</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x20_Odd_Even</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x20_Odd_Even" description="Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB7B523</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Barrel_Jack</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Barrel_Jack" description="DC Barrel Jack"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616B5632</tstamp>
+    </comp>
+    <comp ref="SG1">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1D8</tstamp>
+    </comp>
+    <comp ref="SG2">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1D9</tstamp>
+    </comp>
+    <comp ref="SG3">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1DA</tstamp>
+    </comp>
+    <comp ref="SG4">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D1B4</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E0</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E1</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E2</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E7</tstamp>
+    </comp>
+    <comp ref="SG12">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F3</tstamp>
+    </comp>
+    <comp ref="SG11">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F4</tstamp>
+    </comp>
+    <comp ref="SG10">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F5</tstamp>
+    </comp>
+    <comp ref="SG9">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F6</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F8</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D30E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D314</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1FB</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D320</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4CC</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1FE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1FF</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4D6</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4D5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4D4</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D350</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D34A</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D344</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4D0</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C200</tstamp>
+    </comp>
+    <comp ref="SG13">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4C6</tstamp>
+    </comp>
+    <comp ref="SG14">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4C1</tstamp>
+    </comp>
+    <comp ref="SG15">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D2CE</tstamp>
+    </comp>
+    <comp ref="SG16">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1F0</tstamp>
+    </comp>
+    <comp ref="IC8">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E6</tstamp>
+    </comp>
+    <comp ref="IC7">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4B4</tstamp>
+    </comp>
+    <comp ref="IC6">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E4</tstamp>
+    </comp>
+    <comp ref="IC5">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1E3</tstamp>
+    </comp>
+    <comp ref="SG8">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C4AE</tstamp>
+    </comp>
+    <comp ref="SG7">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D1C6</tstamp>
+    </comp>
+    <comp ref="SG6">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>6104C1DD</tstamp>
+    </comp>
+    <comp ref="SG5">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG1_SG16/" tstamps="/609D38B9/"/>
+      <tstamp>60C8D1BA</tstamp>
+    </comp>
+    <comp ref="SG17">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2BF1</tstamp>
+    </comp>
+    <comp ref="SG18">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2BF2</tstamp>
+    </comp>
+    <comp ref="SG19">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D1AE</tstamp>
+    </comp>
+    <comp ref="SG20">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C0A</tstamp>
+    </comp>
+    <comp ref="IC9">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D1DA</tstamp>
+    </comp>
+    <comp ref="IC11">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2BF6</tstamp>
+    </comp>
+    <comp ref="IC12">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4B1</tstamp>
+    </comp>
+    <comp ref="IC10">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4B6</tstamp>
+    </comp>
+    <comp ref="SG28">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D2DA</tstamp>
+    </comp>
+    <comp ref="SG27">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4C3</tstamp>
+    </comp>
+    <comp ref="SG26">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4C4</tstamp>
+    </comp>
+    <comp ref="SG25">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4C5</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D308</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C1F9</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C17</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D31A</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C1FC</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C1FD</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4CD</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4CE</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C20</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C1F</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C205</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C204</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C203</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C1B</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C201</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4CF</tstamp>
+    </comp>
+    <comp ref="SG29">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C15</tstamp>
+    </comp>
+    <comp ref="SG30">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C14</tstamp>
+    </comp>
+    <comp ref="SG31">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C13</tstamp>
+    </comp>
+    <comp ref="SG32">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D2C8</tstamp>
+    </comp>
+    <comp ref="IC16">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D22E</tstamp>
+    </comp>
+    <comp ref="IC15">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C0E</tstamp>
+    </comp>
+    <comp ref="IC14">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>60C8D212</tstamp>
+    </comp>
+    <comp ref="IC13">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4B2</tstamp>
+    </comp>
+    <comp ref="SG24">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C1DF</tstamp>
+    </comp>
+    <comp ref="SG23">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C1DE</tstamp>
+    </comp>
+    <comp ref="SG22">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>6104C4AC</tstamp>
+    </comp>
+    <comp ref="SG21">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG17_SG32/" tstamps="/610333DC/"/>
+      <tstamp>614F2C0B</tstamp>
+    </comp>
+    <comp ref="SG33">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4A7</tstamp>
+    </comp>
+    <comp ref="SG34">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4A8</tstamp>
+    </comp>
+    <comp ref="SG35">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4A9</tstamp>
+    </comp>
+    <comp ref="SG36">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4AA</tstamp>
+    </comp>
+    <comp ref="IC17">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4AF</tstamp>
+    </comp>
+    <comp ref="IC19">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4B0</tstamp>
+    </comp>
+    <comp ref="IC20">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D1F6</tstamp>
+    </comp>
+    <comp ref="IC18">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2BFB</tstamp>
+    </comp>
+    <comp ref="SG44">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4C2</tstamp>
+    </comp>
+    <comp ref="SG43">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C02</tstamp>
+    </comp>
+    <comp ref="SG42">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C03</tstamp>
+    </comp>
+    <comp ref="SG41">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C04</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4C7</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4C8</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4C9</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4CA</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4CB</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D326</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C07</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C08</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D362</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D35C</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D356</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4D3</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4D2</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4D1</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D33E</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2C09</tstamp>
+    </comp>
+    <comp ref="SG45">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D2F2</tstamp>
+    </comp>
+    <comp ref="SG46">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D2D4</tstamp>
+    </comp>
+    <comp ref="SG47">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4C0</tstamp>
+    </comp>
+    <comp ref="SG48">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4BF</tstamp>
+    </comp>
+    <comp ref="IC24">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4B5</tstamp>
+    </comp>
+    <comp ref="IC23">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D220</tstamp>
+    </comp>
+    <comp ref="IC22">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4B3</tstamp>
+    </comp>
+    <comp ref="IC21">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>614F2BF8</tstamp>
+    </comp>
+    <comp ref="SG40">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D1CC</tstamp>
+    </comp>
+    <comp ref="SG39">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4AD</tstamp>
+    </comp>
+    <comp ref="SG38">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>60C8D1C0</tstamp>
+    </comp>
+    <comp ref="SG37">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG33_SG48/" tstamps="/6104BC2D/"/>
+      <tstamp>6104C4AB</tstamp>
+    </comp>
+    <comp ref="SG49">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D1A2</tstamp>
+    </comp>
+    <comp ref="SG50">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D1A8</tstamp>
+    </comp>
+    <comp ref="SG51">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BF3</tstamp>
+    </comp>
+    <comp ref="SG52">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1DB</tstamp>
+    </comp>
+    <comp ref="IC25">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BF5</tstamp>
+    </comp>
+    <comp ref="IC27">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D1E8</tstamp>
+    </comp>
+    <comp ref="IC28">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BF7</tstamp>
+    </comp>
+    <comp ref="IC26">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D23C</tstamp>
+    </comp>
+    <comp ref="SG60">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C01</tstamp>
+    </comp>
+    <comp ref="SG59">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D2E0</tstamp>
+    </comp>
+    <comp ref="SG58">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D2E6</tstamp>
+    </comp>
+    <comp ref="SG57">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D2EC</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C05</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C16</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1FA</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C06</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C18</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C19</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D32C</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D332</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C207</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C206</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C1E</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C1D</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C1C</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C202</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>4u7F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C1A</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>0u1F</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D338</tstamp>
+    </comp>
+    <comp ref="SG61">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1F7</tstamp>
+    </comp>
+    <comp ref="SG62">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1F2</tstamp>
+    </comp>
+    <comp ref="SG63">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1F1</tstamp>
+    </comp>
+    <comp ref="SG64">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C00</tstamp>
+    </comp>
+    <comp ref="IC32">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BFA</tstamp>
+    </comp>
+    <comp ref="IC31">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1E5</tstamp>
+    </comp>
+    <comp ref="IC30">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BF9</tstamp>
+    </comp>
+    <comp ref="IC29">
+      <value>TC4427AEOA</value>
+      <footprint>SOIC127P600X175-8N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</datasheet>
+      <fields>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <libsource lib="matd_library" part="TC4427AEOA" description="Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC"/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>60C8D204</tstamp>
+    </comp>
+    <comp ref="SG56">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C0D</tstamp>
+    </comp>
+    <comp ref="SG55">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2C0C</tstamp>
+    </comp>
+    <comp ref="SG54">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>614F2BF4</tstamp>
+    </comp>
+    <comp ref="SG53">
+      <value>BMT1205XH7.5</value>
+      <libsource lib="matd_library" part="BMT1205XH7.5" description=""/>
+      <sheetpath names="/SG49_SG64/" tstamps="/6104BC40/"/>
+      <tstamp>6104C1DC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x20_Odd_Even">
+      <description>Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x20_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+        <pin num="33" name="Pin_33" type="passive"/>
+        <pin num="34" name="Pin_34" type="passive"/>
+        <pin num="35" name="Pin_35" type="passive"/>
+        <pin num="36" name="Pin_36" type="passive"/>
+        <pin num="37" name="Pin_37" type="passive"/>
+        <pin num="38" name="Pin_38" type="passive"/>
+        <pin num="39" name="Pin_39" type="passive"/>
+        <pin num="40" name="Pin_40" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matd_library" part="BMT1205XH7.5">
+      <fields>
+        <field name="Reference">SG</field>
+        <field name="Value">BMT1205XH7.5</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="matd_library" part="TC4427AEOA">
+      <description>Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TC4427AEOA</field>
+        <field name="Footprint">SOIC127P600X175-8N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf</field>
+        <field name="Description">Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC</field>
+        <field name="Height">1.75</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">TC4427AEOA</field>
+        <field name="Arrow Part Number">TC4427AEOA</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tc4427aeoa/microchip-technology</field>
+        <field name="Mouser Part Number">579-TC4427AEOA</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC_1" type="passive"/>
+        <pin num="2" name="IN_A" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="IN_B" type="passive"/>
+        <pin num="5" name="OUT_B" type="passive"/>
+        <pin num="6" name="VDD" type="passive"/>
+        <pin num="7" name="OUT_A" type="passive"/>
+        <pin num="8" name="NC_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="matd_library">
+      <uri>C:\work\matd\matd\pcb\library\matd_library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/SG33_SG48/SG44_IN">
+      <node ref="J2" pin="4"/>
+      <node ref="IC20" pin="2"/>
+    </net>
+    <net code="2" name="/SG33_SG48/SG43_IN">
+      <node ref="IC19" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="3" name="/SG33_SG48/SG41_IN">
+      <node ref="IC17" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="/SG49_SG64/SG51_IN">
+      <node ref="IC27" pin="4"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="5" name="/SG49_SG64/SG50_IN">
+      <node ref="IC26" pin="4"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="6" name="/SG49_SG64/SG49_IN">
+      <node ref="IC25" pin="4"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="7" name="/SG33_SG48/SG48_IN">
+      <node ref="IC24" pin="2"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="8" name="/SG33_SG48/SG46_IN">
+      <node ref="J2" pin="6"/>
+      <node ref="IC22" pin="2"/>
+    </net>
+    <net code="9" name="/SG33_SG48/SG45_IN">
+      <node ref="J2" pin="5"/>
+      <node ref="IC21" pin="2"/>
+    </net>
+    <net code="10" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="SG27" pin="-"/>
+      <node ref="IC12" pin="3"/>
+      <node ref="IC10" pin="3"/>
+      <node ref="SG17" pin="-"/>
+      <node ref="SG18" pin="-"/>
+      <node ref="SG19" pin="-"/>
+      <node ref="SG20" pin="-"/>
+      <node ref="IC9" pin="3"/>
+      <node ref="IC11" pin="3"/>
+      <node ref="SG28" pin="-"/>
+      <node ref="SG25" pin="-"/>
+      <node ref="SG23" pin="-"/>
+      <node ref="IC14" pin="3"/>
+      <node ref="IC13" pin="3"/>
+      <node ref="SG24" pin="-"/>
+      <node ref="IC16" pin="3"/>
+      <node ref="IC15" pin="3"/>
+      <node ref="SG22" pin="-"/>
+      <node ref="SG21" pin="-"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="SG26" pin="-"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="SG47" pin="-"/>
+      <node ref="SG46" pin="-"/>
+      <node ref="SG45" pin="-"/>
+      <node ref="SG48" pin="-"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="SG12" pin="-"/>
+      <node ref="IC7" pin="3"/>
+      <node ref="IC6" pin="3"/>
+      <node ref="IC5" pin="3"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="SG1" pin="-"/>
+      <node ref="SG2" pin="-"/>
+      <node ref="SG3" pin="-"/>
+      <node ref="SG4" pin="-"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC3" pin="3"/>
+      <node ref="SG11" pin="-"/>
+      <node ref="SG10" pin="-"/>
+      <node ref="SG9" pin="-"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SG30" pin="-"/>
+      <node ref="SG31" pin="-"/>
+      <node ref="SG32" pin="-"/>
+      <node ref="SG29" pin="-"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="SG61" pin="-"/>
+      <node ref="SG62" pin="-"/>
+      <node ref="SG63" pin="-"/>
+      <node ref="SG64" pin="-"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C64" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="IC27" pin="3"/>
+      <node ref="IC28" pin="3"/>
+      <node ref="IC26" pin="3"/>
+      <node ref="SG49" pin="-"/>
+      <node ref="SG50" pin="-"/>
+      <node ref="SG51" pin="-"/>
+      <node ref="SG52" pin="-"/>
+      <node ref="IC25" pin="3"/>
+      <node ref="SG60" pin="-"/>
+      <node ref="SG59" pin="-"/>
+      <node ref="SG58" pin="-"/>
+      <node ref="SG57" pin="-"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C49" pin="2"/>
+      <node ref="IC30" pin="3"/>
+      <node ref="IC29" pin="3"/>
+      <node ref="IC31" pin="3"/>
+      <node ref="IC32" pin="3"/>
+      <node ref="SG56" pin="-"/>
+      <node ref="SG55" pin="-"/>
+      <node ref="SG54" pin="-"/>
+      <node ref="SG53" pin="-"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="IC22" pin="3"/>
+      <node ref="IC21" pin="3"/>
+      <node ref="SG40" pin="-"/>
+      <node ref="SG39" pin="-"/>
+      <node ref="SG38" pin="-"/>
+      <node ref="SG37" pin="-"/>
+      <node ref="IC24" pin="3"/>
+      <node ref="IC23" pin="3"/>
+      <node ref="C44" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="IC17" pin="3"/>
+      <node ref="IC19" pin="3"/>
+      <node ref="SG44" pin="-"/>
+      <node ref="SG43" pin="-"/>
+      <node ref="SG42" pin="-"/>
+      <node ref="SG41" pin="-"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="IC20" pin="3"/>
+      <node ref="IC18" pin="3"/>
+      <node ref="SG33" pin="-"/>
+      <node ref="SG34" pin="-"/>
+      <node ref="SG35" pin="-"/>
+      <node ref="SG36" pin="-"/>
+      <node ref="IC8" pin="3"/>
+      <node ref="C12" pin="2"/>
+      <node ref="J2" pin="27"/>
+      <node ref="J2" pin="29"/>
+      <node ref="C15" pin="2"/>
+      <node ref="SG8" pin="-"/>
+      <node ref="SG7" pin="-"/>
+      <node ref="SG6" pin="-"/>
+      <node ref="SG5" pin="-"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J2" pin="33"/>
+      <node ref="J2" pin="35"/>
+      <node ref="J2" pin="37"/>
+      <node ref="J2" pin="39"/>
+      <node ref="SG13" pin="-"/>
+      <node ref="SG14" pin="-"/>
+      <node ref="SG15" pin="-"/>
+      <node ref="SG16" pin="-"/>
+      <node ref="J2" pin="31"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad25)">
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="13" name="/SG33_SG48/SG42_IN">
+      <node ref="IC18" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="14" name="/SG17_SG32/SG25_IN">
+      <node ref="J1" pin="25"/>
+      <node ref="IC9" pin="2"/>
+    </net>
+    <net code="15" name="/SG17_SG32/SG23_IN">
+      <node ref="J1" pin="23"/>
+      <node ref="IC15" pin="4"/>
+    </net>
+    <net code="16" name="/SG17_SG32/VCC">
+      <node ref="IC22" pin="6"/>
+      <node ref="IC21" pin="6"/>
+      <node ref="IC24" pin="6"/>
+      <node ref="IC23" pin="6"/>
+      <node ref="C38" pin="1"/>
+      <node ref="IC18" pin="6"/>
+      <node ref="C24" pin="1"/>
+      <node ref="IC17" pin="6"/>
+      <node ref="IC19" pin="6"/>
+      <node ref="IC13" pin="6"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="IC16" pin="6"/>
+      <node ref="C43" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="IC12" pin="6"/>
+      <node ref="C35" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="C63" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C64" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="IC15" pin="6"/>
+      <node ref="IC14" pin="6"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC20" pin="6"/>
+      <node ref="IC10" pin="6"/>
+      <node ref="C36" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="IC9" pin="6"/>
+      <node ref="IC11" pin="6"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="C4" pin="1"/>
+      <node ref="IC31" pin="6"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="IC4" pin="6"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="IC27" pin="6"/>
+      <node ref="IC30" pin="6"/>
+      <node ref="IC3" pin="6"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="IC8" pin="6"/>
+      <node ref="IC28" pin="6"/>
+      <node ref="C51" pin="1"/>
+      <node ref="IC26" pin="6"/>
+      <node ref="IC25" pin="6"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC6" pin="6"/>
+      <node ref="IC5" pin="6"/>
+      <node ref="C56" pin="1"/>
+      <node ref="IC7" pin="6"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="J2" pin="30"/>
+      <node ref="C5" pin="1"/>
+      <node ref="J2" pin="28"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="IC29" pin="6"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="J2" pin="32"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="IC32" pin="6"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="17" name="/SG49_SG64/SG64_IN">
+      <node ref="J2" pin="24"/>
+      <node ref="IC32" pin="2"/>
+    </net>
+    <net code="18" name="/SG1_SG16/SG1_IN">
+      <node ref="IC1" pin="4"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad34)">
+      <node ref="J2" pin="40"/>
+      <node ref="J2" pin="36"/>
+      <node ref="J2" pin="38"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J2" pin="34"/>
+    </net>
+    <net code="20" name="/SG49_SG64/SG56_IN">
+      <node ref="J2" pin="16"/>
+      <node ref="IC32" pin="4"/>
+    </net>
+    <net code="21" name="/SG49_SG64/SG54_IN">
+      <node ref="J2" pin="14"/>
+      <node ref="IC30" pin="4"/>
+    </net>
+    <net code="22" name="/SG33_SG48/SG47_IN">
+      <node ref="J2" pin="13"/>
+      <node ref="IC29" pin="4"/>
+      <node ref="IC23" pin="2"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="23" name="/SG49_SG64/SG52_IN">
+      <node ref="J2" pin="12"/>
+      <node ref="IC28" pin="4"/>
+    </net>
+    <net code="24" name="/SG49_SG64/SG60_IN">
+      <node ref="J2" pin="20"/>
+      <node ref="IC28" pin="2"/>
+    </net>
+    <net code="25" name="/SG49_SG64/SG63_IN">
+      <node ref="J2" pin="23"/>
+      <node ref="IC31" pin="2"/>
+    </net>
+    <net code="26" name="/SG49_SG64/SG62_IN">
+      <node ref="J2" pin="22"/>
+      <node ref="IC30" pin="2"/>
+    </net>
+    <net code="27" name="/SG49_SG64/SG61_IN">
+      <node ref="IC29" pin="2"/>
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="28" name="/SG1_SG16/SG2_IN">
+      <node ref="J1" pin="2"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="29" name="/SG49_SG64/SG59_IN">
+      <node ref="IC27" pin="2"/>
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="30" name="/SG49_SG64/SG58_IN">
+      <node ref="IC26" pin="2"/>
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="31" name="/SG49_SG64/SG57_IN">
+      <node ref="IC25" pin="2"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="32" name="/SG1_SG16/SG8_IN">
+      <node ref="J1" pin="8"/>
+      <node ref="IC8" pin="4"/>
+    </net>
+    <net code="33" name="/SG1_SG16/SG7_IN">
+      <node ref="J1" pin="7"/>
+      <node ref="IC7" pin="4"/>
+    </net>
+    <net code="34" name="/SG1_SG16/SG6_IN">
+      <node ref="IC6" pin="4"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="35" name="/SG1_SG16/SG5_IN">
+      <node ref="IC5" pin="4"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="36" name="/SG1_SG16/SG4_IN">
+      <node ref="J1" pin="4"/>
+      <node ref="IC4" pin="4"/>
+    </net>
+    <net code="37" name="/SG1_SG16/SG3_IN">
+      <node ref="IC3" pin="4"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="38" name="/SG1_SG16/SG15_IN">
+      <node ref="IC7" pin="2"/>
+      <node ref="J1" pin="15"/>
+    </net>
+    <net code="39" name="/SG1_SG16/SG14_IN">
+      <node ref="IC6" pin="2"/>
+      <node ref="J1" pin="14"/>
+    </net>
+    <net code="40" name="/SG1_SG16/SG13_IN">
+      <node ref="J1" pin="13"/>
+      <node ref="IC5" pin="2"/>
+    </net>
+    <net code="41" name="/SG1_SG16/SG12_IN">
+      <node ref="IC4" pin="2"/>
+      <node ref="J1" pin="12"/>
+    </net>
+    <net code="42" name="/SG1_SG16/SG11_IN">
+      <node ref="J1" pin="11"/>
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="43" name="/SG1_SG16/SG10_IN">
+      <node ref="J1" pin="10"/>
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="44" name="/SG1_SG16/SG9_IN">
+      <node ref="J1" pin="9"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="45" name="/SG1_SG16/SG16_IN">
+      <node ref="J1" pin="16"/>
+      <node ref="IC8" pin="2"/>
+    </net>
+    <net code="46" name="/SG17_SG32/SG30_IN">
+      <node ref="IC14" pin="2"/>
+      <node ref="J1" pin="30"/>
+    </net>
+    <net code="47" name="/SG17_SG32/SG29_IN">
+      <node ref="IC13" pin="2"/>
+      <node ref="J1" pin="29"/>
+    </net>
+    <net code="48" name="/SG17_SG32/SG27_IN">
+      <node ref="IC11" pin="2"/>
+      <node ref="J1" pin="27"/>
+    </net>
+    <net code="49" name="/SG17_SG32/SG26_IN">
+      <node ref="IC10" pin="2"/>
+      <node ref="J1" pin="26"/>
+    </net>
+    <net code="50" name="/SG17_SG32/SG24_IN">
+      <node ref="IC16" pin="4"/>
+      <node ref="J1" pin="24"/>
+    </net>
+    <net code="51" name="/SG17_SG32/SG22_IN">
+      <node ref="IC14" pin="4"/>
+      <node ref="J1" pin="22"/>
+    </net>
+    <net code="52" name="/SG17_SG32/SG21_IN">
+      <node ref="J1" pin="21"/>
+      <node ref="IC13" pin="4"/>
+    </net>
+    <net code="53" name="/SG17_SG32/SG20_IN">
+      <node ref="IC12" pin="4"/>
+      <node ref="J1" pin="20"/>
+    </net>
+    <net code="54" name="/SG17_SG32/SG19_IN">
+      <node ref="IC11" pin="4"/>
+      <node ref="J1" pin="19"/>
+    </net>
+    <net code="55" name="/SG17_SG32/SG18_IN">
+      <node ref="IC10" pin="4"/>
+      <node ref="J1" pin="18"/>
+    </net>
+    <net code="56" name="/SG17_SG32/SG17_IN">
+      <node ref="IC9" pin="4"/>
+      <node ref="J1" pin="17"/>
+    </net>
+    <net code="57" name="/SG17_SG32/SG31_IN">
+      <node ref="IC15" pin="2"/>
+      <node ref="J1" pin="31"/>
+    </net>
+    <net code="58" name="/SG33_SG48/SG40_IN">
+      <node ref="IC24" pin="4"/>
+      <node ref="J1" pin="40"/>
+    </net>
+    <net code="59" name="/SG33_SG48/SG39_IN">
+      <node ref="IC23" pin="4"/>
+      <node ref="J1" pin="39"/>
+    </net>
+    <net code="60" name="/SG33_SG48/SG38_IN">
+      <node ref="J1" pin="38"/>
+      <node ref="IC22" pin="4"/>
+    </net>
+    <net code="61" name="/SG33_SG48/SG37_IN">
+      <node ref="J1" pin="37"/>
+      <node ref="IC21" pin="4"/>
+    </net>
+    <net code="62" name="/SG33_SG48/SG35_IN">
+      <node ref="J1" pin="35"/>
+      <node ref="IC19" pin="4"/>
+    </net>
+    <net code="63" name="/SG33_SG48/SG34_IN">
+      <node ref="IC18" pin="4"/>
+      <node ref="J1" pin="34"/>
+    </net>
+    <net code="64" name="/SG33_SG48/SG33_IN">
+      <node ref="J1" pin="33"/>
+      <node ref="IC17" pin="4"/>
+    </net>
+    <net code="65" name="/SG17_SG32/SG32_IN">
+      <node ref="IC31" pin="4"/>
+      <node ref="IC16" pin="2"/>
+      <node ref="J1" pin="32"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="66" name="/SG33_SG48/SG36_IN">
+      <node ref="IC20" pin="4"/>
+      <node ref="J1" pin="36"/>
+    </net>
+    <net code="67" name="/SG17_SG32/SG28_IN">
+      <node ref="IC12" pin="2"/>
+      <node ref="J1" pin="28"/>
+    </net>
+    <net code="68" name="Net-(IC8-Pad1)">
+      <node ref="IC8" pin="1"/>
+    </net>
+    <net code="69" name="Net-(IC8-Pad8)">
+      <node ref="IC8" pin="8"/>
+    </net>
+    <net code="70" name="Net-(IC7-Pad1)">
+      <node ref="IC7" pin="1"/>
+    </net>
+    <net code="71" name="Net-(IC7-Pad8)">
+      <node ref="IC7" pin="8"/>
+    </net>
+    <net code="72" name="Net-(IC6-Pad1)">
+      <node ref="IC6" pin="1"/>
+    </net>
+    <net code="73" name="Net-(IC6-Pad8)">
+      <node ref="IC6" pin="8"/>
+    </net>
+    <net code="74" name="Net-(IC5-Pad1)">
+      <node ref="IC5" pin="1"/>
+    </net>
+    <net code="75" name="Net-(IC5-Pad8)">
+      <node ref="IC5" pin="8"/>
+    </net>
+    <net code="76" name="Net-(IC7-Pad7)">
+      <node ref="IC7" pin="7"/>
+      <node ref="SG15" pin="+"/>
+    </net>
+    <net code="77" name="Net-(IC6-Pad7)">
+      <node ref="SG14" pin="+"/>
+      <node ref="IC6" pin="7"/>
+    </net>
+    <net code="78" name="Net-(IC5-Pad7)">
+      <node ref="IC5" pin="7"/>
+      <node ref="SG13" pin="+"/>
+    </net>
+    <net code="79" name="Net-(IC6-Pad5)">
+      <node ref="SG6" pin="+"/>
+      <node ref="IC6" pin="5"/>
+    </net>
+    <net code="80" name="Net-(IC8-Pad7)">
+      <node ref="SG16" pin="+"/>
+      <node ref="IC8" pin="7"/>
+    </net>
+    <net code="81" name="Net-(IC8-Pad5)">
+      <node ref="SG8" pin="+"/>
+      <node ref="IC8" pin="5"/>
+    </net>
+    <net code="82" name="Net-(IC5-Pad5)">
+      <node ref="IC5" pin="5"/>
+      <node ref="SG5" pin="+"/>
+    </net>
+    <net code="83" name="Net-(IC7-Pad5)">
+      <node ref="SG7" pin="+"/>
+      <node ref="IC7" pin="5"/>
+    </net>
+    <net code="84" name="Net-(IC4-Pad7)">
+      <node ref="SG12" pin="+"/>
+      <node ref="IC4" pin="7"/>
+    </net>
+    <net code="85" name="Net-(IC4-Pad8)">
+      <node ref="IC4" pin="8"/>
+    </net>
+    <net code="86" name="Net-(IC4-Pad1)">
+      <node ref="IC4" pin="1"/>
+    </net>
+    <net code="87" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="88" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="89" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="90" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="91" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="92" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="93" name="Net-(IC1-Pad5)">
+      <node ref="SG1" pin="+"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="94" name="Net-(IC3-Pad7)">
+      <node ref="IC3" pin="7"/>
+      <node ref="SG11" pin="+"/>
+    </net>
+    <net code="95" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+      <node ref="SG9" pin="+"/>
+    </net>
+    <net code="96" name="Net-(IC4-Pad5)">
+      <node ref="SG4" pin="+"/>
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="97" name="Net-(IC3-Pad5)">
+      <node ref="SG3" pin="+"/>
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="98" name="Net-(IC2-Pad5)">
+      <node ref="SG2" pin="+"/>
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="99" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+      <node ref="SG10" pin="+"/>
+    </net>
+    <net code="100" name="Net-(IC16-Pad1)">
+      <node ref="IC16" pin="1"/>
+    </net>
+    <net code="101" name="Net-(IC16-Pad8)">
+      <node ref="IC16" pin="8"/>
+    </net>
+    <net code="102" name="Net-(IC15-Pad1)">
+      <node ref="IC15" pin="1"/>
+    </net>
+    <net code="103" name="Net-(IC15-Pad8)">
+      <node ref="IC15" pin="8"/>
+    </net>
+    <net code="104" name="Net-(IC14-Pad1)">
+      <node ref="IC14" pin="1"/>
+    </net>
+    <net code="105" name="Net-(IC14-Pad8)">
+      <node ref="IC14" pin="8"/>
+    </net>
+    <net code="106" name="Net-(IC13-Pad1)">
+      <node ref="IC13" pin="1"/>
+    </net>
+    <net code="107" name="Net-(IC13-Pad8)">
+      <node ref="IC13" pin="8"/>
+    </net>
+    <net code="108" name="Net-(IC15-Pad7)">
+      <node ref="IC15" pin="7"/>
+      <node ref="SG31" pin="+"/>
+    </net>
+    <net code="109" name="Net-(IC14-Pad7)">
+      <node ref="IC14" pin="7"/>
+      <node ref="SG30" pin="+"/>
+    </net>
+    <net code="110" name="Net-(IC13-Pad7)">
+      <node ref="SG29" pin="+"/>
+      <node ref="IC13" pin="7"/>
+    </net>
+    <net code="111" name="Net-(IC16-Pad7)">
+      <node ref="IC16" pin="7"/>
+      <node ref="SG32" pin="+"/>
+    </net>
+    <net code="112" name="Net-(IC16-Pad5)">
+      <node ref="IC16" pin="5"/>
+      <node ref="SG24" pin="+"/>
+    </net>
+    <net code="113" name="Net-(IC13-Pad5)">
+      <node ref="SG21" pin="+"/>
+      <node ref="IC13" pin="5"/>
+    </net>
+    <net code="114" name="Net-(IC14-Pad5)">
+      <node ref="SG22" pin="+"/>
+      <node ref="IC14" pin="5"/>
+    </net>
+    <net code="115" name="Net-(IC15-Pad5)">
+      <node ref="SG23" pin="+"/>
+      <node ref="IC15" pin="5"/>
+    </net>
+    <net code="116" name="Net-(IC10-Pad7)">
+      <node ref="IC10" pin="7"/>
+      <node ref="SG26" pin="+"/>
+    </net>
+    <net code="117" name="Net-(IC12-Pad7)">
+      <node ref="IC12" pin="7"/>
+      <node ref="SG28" pin="+"/>
+    </net>
+    <net code="118" name="Net-(IC12-Pad5)">
+      <node ref="IC12" pin="5"/>
+      <node ref="SG20" pin="+"/>
+    </net>
+    <net code="119" name="Net-(IC10-Pad1)">
+      <node ref="IC10" pin="1"/>
+    </net>
+    <net code="120" name="Net-(IC12-Pad1)">
+      <node ref="IC12" pin="1"/>
+    </net>
+    <net code="121" name="Net-(IC12-Pad8)">
+      <node ref="IC12" pin="8"/>
+    </net>
+    <net code="122" name="Net-(IC11-Pad8)">
+      <node ref="IC11" pin="8"/>
+    </net>
+    <net code="123" name="Net-(IC11-Pad1)">
+      <node ref="IC11" pin="1"/>
+    </net>
+    <net code="124" name="Net-(IC10-Pad8)">
+      <node ref="IC10" pin="8"/>
+    </net>
+    <net code="125" name="Net-(IC9-Pad8)">
+      <node ref="IC9" pin="8"/>
+    </net>
+    <net code="126" name="Net-(IC9-Pad1)">
+      <node ref="IC9" pin="1"/>
+    </net>
+    <net code="127" name="Net-(IC11-Pad7)">
+      <node ref="IC11" pin="7"/>
+      <node ref="SG27" pin="+"/>
+    </net>
+    <net code="128" name="Net-(IC9-Pad7)">
+      <node ref="IC9" pin="7"/>
+      <node ref="SG25" pin="+"/>
+    </net>
+    <net code="129" name="Net-(IC9-Pad5)">
+      <node ref="IC9" pin="5"/>
+      <node ref="SG17" pin="+"/>
+    </net>
+    <net code="130" name="Net-(IC11-Pad5)">
+      <node ref="SG19" pin="+"/>
+      <node ref="IC11" pin="5"/>
+    </net>
+    <net code="131" name="Net-(IC10-Pad5)">
+      <node ref="IC10" pin="5"/>
+      <node ref="SG18" pin="+"/>
+    </net>
+    <net code="132" name="Net-(IC23-Pad8)">
+      <node ref="IC23" pin="8"/>
+    </net>
+    <net code="133" name="Net-(IC22-Pad1)">
+      <node ref="IC22" pin="1"/>
+    </net>
+    <net code="134" name="Net-(IC22-Pad8)">
+      <node ref="IC22" pin="8"/>
+    </net>
+    <net code="135" name="Net-(IC21-Pad1)">
+      <node ref="IC21" pin="1"/>
+    </net>
+    <net code="136" name="Net-(IC21-Pad8)">
+      <node ref="IC21" pin="8"/>
+    </net>
+    <net code="137" name="Net-(IC23-Pad1)">
+      <node ref="IC23" pin="1"/>
+    </net>
+    <net code="138" name="Net-(IC24-Pad8)">
+      <node ref="IC24" pin="8"/>
+    </net>
+    <net code="139" name="Net-(IC24-Pad1)">
+      <node ref="IC24" pin="1"/>
+    </net>
+    <net code="140" name="Net-(IC24-Pad5)">
+      <node ref="IC24" pin="5"/>
+      <node ref="SG40" pin="+"/>
+    </net>
+    <net code="141" name="Net-(IC22-Pad7)">
+      <node ref="IC22" pin="7"/>
+      <node ref="SG46" pin="+"/>
+    </net>
+    <net code="142" name="Net-(IC21-Pad7)">
+      <node ref="IC21" pin="7"/>
+      <node ref="SG45" pin="+"/>
+    </net>
+    <net code="143" name="Net-(IC23-Pad7)">
+      <node ref="IC23" pin="7"/>
+      <node ref="SG47" pin="+"/>
+    </net>
+    <net code="144" name="Net-(IC23-Pad5)">
+      <node ref="SG39" pin="+"/>
+      <node ref="IC23" pin="5"/>
+    </net>
+    <net code="145" name="Net-(IC24-Pad7)">
+      <node ref="IC24" pin="7"/>
+      <node ref="SG48" pin="+"/>
+    </net>
+    <net code="146" name="Net-(IC21-Pad5)">
+      <node ref="SG37" pin="+"/>
+      <node ref="IC21" pin="5"/>
+    </net>
+    <net code="147" name="Net-(IC22-Pad5)">
+      <node ref="IC22" pin="5"/>
+      <node ref="SG38" pin="+"/>
+    </net>
+    <net code="148" name="Net-(IC18-Pad7)">
+      <node ref="IC18" pin="7"/>
+      <node ref="SG42" pin="+"/>
+    </net>
+    <net code="149" name="Net-(IC20-Pad7)">
+      <node ref="IC20" pin="7"/>
+      <node ref="SG44" pin="+"/>
+    </net>
+    <net code="150" name="Net-(IC20-Pad5)">
+      <node ref="IC20" pin="5"/>
+      <node ref="SG36" pin="+"/>
+    </net>
+    <net code="151" name="Net-(IC18-Pad1)">
+      <node ref="IC18" pin="1"/>
+    </net>
+    <net code="152" name="Net-(IC20-Pad1)">
+      <node ref="IC20" pin="1"/>
+    </net>
+    <net code="153" name="Net-(IC20-Pad8)">
+      <node ref="IC20" pin="8"/>
+    </net>
+    <net code="154" name="Net-(IC19-Pad8)">
+      <node ref="IC19" pin="8"/>
+    </net>
+    <net code="155" name="Net-(IC19-Pad1)">
+      <node ref="IC19" pin="1"/>
+    </net>
+    <net code="156" name="Net-(IC18-Pad8)">
+      <node ref="IC18" pin="8"/>
+    </net>
+    <net code="157" name="Net-(IC17-Pad8)">
+      <node ref="IC17" pin="8"/>
+    </net>
+    <net code="158" name="Net-(IC17-Pad1)">
+      <node ref="IC17" pin="1"/>
+    </net>
+    <net code="159" name="Net-(IC19-Pad7)">
+      <node ref="SG43" pin="+"/>
+      <node ref="IC19" pin="7"/>
+    </net>
+    <net code="160" name="Net-(IC17-Pad7)">
+      <node ref="IC17" pin="7"/>
+      <node ref="SG41" pin="+"/>
+    </net>
+    <net code="161" name="Net-(IC17-Pad5)">
+      <node ref="IC17" pin="5"/>
+      <node ref="SG33" pin="+"/>
+    </net>
+    <net code="162" name="Net-(IC19-Pad5)">
+      <node ref="IC19" pin="5"/>
+      <node ref="SG35" pin="+"/>
+    </net>
+    <net code="163" name="Net-(IC18-Pad5)">
+      <node ref="SG34" pin="+"/>
+      <node ref="IC18" pin="5"/>
+    </net>
+    <net code="164" name="Net-(IC32-Pad1)">
+      <node ref="IC32" pin="1"/>
+    </net>
+    <net code="165" name="Net-(IC32-Pad8)">
+      <node ref="IC32" pin="8"/>
+    </net>
+    <net code="166" name="Net-(IC31-Pad1)">
+      <node ref="IC31" pin="1"/>
+    </net>
+    <net code="167" name="Net-(IC31-Pad8)">
+      <node ref="IC31" pin="8"/>
+    </net>
+    <net code="168" name="Net-(IC30-Pad1)">
+      <node ref="IC30" pin="1"/>
+    </net>
+    <net code="169" name="Net-(IC30-Pad8)">
+      <node ref="IC30" pin="8"/>
+    </net>
+    <net code="170" name="Net-(IC29-Pad1)">
+      <node ref="IC29" pin="1"/>
+    </net>
+    <net code="171" name="Net-(IC31-Pad7)">
+      <node ref="IC31" pin="7"/>
+      <node ref="SG63" pin="+"/>
+    </net>
+    <net code="172" name="Net-(IC29-Pad8)">
+      <node ref="IC29" pin="8"/>
+    </net>
+    <net code="173" name="Net-(IC30-Pad7)">
+      <node ref="SG62" pin="+"/>
+      <node ref="IC30" pin="7"/>
+    </net>
+    <net code="174" name="Net-(IC29-Pad7)">
+      <node ref="IC29" pin="7"/>
+      <node ref="SG61" pin="+"/>
+    </net>
+    <net code="175" name="Net-(IC30-Pad5)">
+      <node ref="SG54" pin="+"/>
+      <node ref="IC30" pin="5"/>
+    </net>
+    <net code="176" name="Net-(IC32-Pad7)">
+      <node ref="IC32" pin="7"/>
+      <node ref="SG64" pin="+"/>
+    </net>
+    <net code="177" name="Net-(IC32-Pad5)">
+      <node ref="IC32" pin="5"/>
+      <node ref="SG56" pin="+"/>
+    </net>
+    <net code="178" name="Net-(IC29-Pad5)">
+      <node ref="IC29" pin="5"/>
+      <node ref="SG53" pin="+"/>
+    </net>
+    <net code="179" name="Net-(IC31-Pad5)">
+      <node ref="SG55" pin="+"/>
+      <node ref="IC31" pin="5"/>
+    </net>
+    <net code="180" name="Net-(IC26-Pad7)">
+      <node ref="IC26" pin="7"/>
+      <node ref="SG58" pin="+"/>
+    </net>
+    <net code="181" name="Net-(IC28-Pad7)">
+      <node ref="IC28" pin="7"/>
+      <node ref="SG60" pin="+"/>
+    </net>
+    <net code="182" name="Net-(IC28-Pad5)">
+      <node ref="IC28" pin="5"/>
+      <node ref="SG52" pin="+"/>
+    </net>
+    <net code="183" name="Net-(IC26-Pad1)">
+      <node ref="IC26" pin="1"/>
+    </net>
+    <net code="184" name="Net-(IC28-Pad1)">
+      <node ref="IC28" pin="1"/>
+    </net>
+    <net code="185" name="Net-(IC28-Pad8)">
+      <node ref="IC28" pin="8"/>
+    </net>
+    <net code="186" name="Net-(IC27-Pad8)">
+      <node ref="IC27" pin="8"/>
+    </net>
+    <net code="187" name="Net-(IC27-Pad1)">
+      <node ref="IC27" pin="1"/>
+    </net>
+    <net code="188" name="Net-(IC26-Pad8)">
+      <node ref="IC26" pin="8"/>
+    </net>
+    <net code="189" name="Net-(IC25-Pad8)">
+      <node ref="IC25" pin="8"/>
+    </net>
+    <net code="190" name="Net-(IC25-Pad1)">
+      <node ref="IC25" pin="1"/>
+    </net>
+    <net code="191" name="Net-(IC25-Pad5)">
+      <node ref="IC25" pin="5"/>
+      <node ref="SG49" pin="+"/>
+    </net>
+    <net code="192" name="Net-(IC27-Pad7)">
+      <node ref="SG59" pin="+"/>
+      <node ref="IC27" pin="7"/>
+    </net>
+    <net code="193" name="Net-(IC25-Pad7)">
+      <node ref="IC25" pin="7"/>
+      <node ref="SG57" pin="+"/>
+    </net>
+    <net code="194" name="Net-(IC27-Pad5)">
+      <node ref="SG51" pin="+"/>
+      <node ref="IC27" pin="5"/>
+    </net>
+    <net code="195" name="Net-(IC26-Pad5)">
+      <node ref="SG50" pin="+"/>
+      <node ref="IC26" pin="5"/>
+    </net>
+  </nets>
+</export>

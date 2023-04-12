@@ -1,0 +1,18 @@
+.MIC4127YME :1 ;1.5A 2xHigh Spd MOSFET Driver,MIC4127YME Micrel MIC4127YME, Dual MOSFET Power Driver 1.5A, 4.5  20 V, Non-Inverting, 8-Pin SOIC
+SOIC127P602X168-9N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="INA" 3="GND" 4="INB" 5="OUTB" 6="VS" 7="OUTA" 8="NC_2" 9="EP"
+*MXP 9
+*DFN MIC4127YME
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (MIC4127YME)
+~!Arrow Part Number (MIC4127YME)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/mic4127yme/microchip-technology)
+~!Mouser Part Number (998-MIC4127YME)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=998-MIC4127YME)
+~!Link Datasheet (http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-27-28-Data-Sheet-20006084A.pdf)
+~!Height (1.68mm)
+~!3D_Model (MIC4127YME)
+MIC4127YME
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

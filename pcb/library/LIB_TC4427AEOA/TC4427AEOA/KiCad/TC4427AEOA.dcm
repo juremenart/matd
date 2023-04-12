@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TC4427AEOA
+D Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC
+K
+F https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf
+$ENDCMP
+#
+#End Doc Library

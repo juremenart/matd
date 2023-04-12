@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name matd_library)(type Legacy)(uri C:/work/matd/matd/pcb/library/matd_library.lib)(options "")(descr ""))
+)

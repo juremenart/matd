@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MIC4127YME
+#/883754/360937/2.47/9/3/Integrated Circuit
+DEF MIC4127YME IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "MIC4127YME" 1050 200 50 H V L CNN
+F2 "SOIC127P602X168-9N" 1050 100 50 H I L CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-27-28-Data-Sheet-20006084A.pdf" 1050 0 50 H I L CNN
+F4 "1.5A 2xHigh Spd MOSFET Driver,MIC4127YME Micrel MIC4127YME, Dual MOSFET Power Driver 1.5A, 4.5  20 V, Non-Inverting, 8-Pin SOIC" 1050 -100 50 H I L CNN "Description"
+F5 "1.68" 1050 -200 50 H I L CNN "Height"
+F6 "Microchip" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MIC4127YME" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MIC4127YME" 1050 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mic4127yme/microchip-technology" 1050 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "998-MIC4127YME" 1050 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=998-MIC4127YME" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X INA 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X INB 4 0 -300 200 R 50 50 0 0 P
+X EP 9 600 -800 200 U 50 50 0 0 P
+X NC_2 8 1200 0 200 L 50 50 0 0 P
+X OUTA 7 1200 -100 200 L 50 50 0 0 P
+X VS 6 1200 -200 200 L 50 50 0 0 P
+X OUTB 5 1200 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

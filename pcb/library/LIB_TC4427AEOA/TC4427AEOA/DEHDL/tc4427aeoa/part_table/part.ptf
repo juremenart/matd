@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TC4427AEOA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Microchip", "TC4427AEOA" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "TC4427AEOA", "https://www.arrow.com/en/products/tc4427aeoa/microchip-technology", "579-TC4427AEOA", "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D", "Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC", "https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf", "1.75 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.LM386M-1_NOPB :1 ;Wide Input Voltage Low Power Audio Amplifier with Internal Gain
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="GAIN_1" 2="-INPUT" 3="+INPUT" 4="GND" 5="VOUT" 6="VS" 7="BYPASS" 8="GAIN_2"
+*MXP 8
+*DFN LM386M-1_NOPB
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM386M-1/NOPB)
+~!Arrow Part Number (LM386M-1/NOPB)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/lm386m-1nopb/texas-instruments)
+~!Mouser Part Number (926-LM386M-1/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM386M-1-NOPB?qs=QbsRYf82W3GaJvrwUmrW3g%3D%3D)
+~!Link Datasheet (http://docs-emea.rs-online.com/webdocs/06e8/0900766b806e88be.pdf)
+~!Height (1.75mm)
+~!3D_Model (LM386M-1_NOPB)
+LM386M-1_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

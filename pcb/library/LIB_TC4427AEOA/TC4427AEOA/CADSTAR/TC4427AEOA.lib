@@ -1,0 +1,18 @@
+.TC4427AEOA :1 ;Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="IN A" 3="GND" 4="IN B" 5="OUT B" 6="VDD" 7="OUT A" 8="NC_2"
+*MXP 8
+*DFN TC4427AEOA
+~!Manufacturer_Name (Microchip)
+~!Manufacturer_Part_Number (TC4427AEOA)
+~!Arrow Part Number (TC4427AEOA)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/tc4427aeoa/microchip-technology)
+~!Mouser Part Number (579-TC4427AEOA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Microchip-Technology/TC4427AEOA?qs=DYhulPWWrttHSUDDCtmJag%3D%3D)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf)
+~!Height (1.75mm)
+~!3D_Model (TC4427AEOA)
+TC4427AEOA
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

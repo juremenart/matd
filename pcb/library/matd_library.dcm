@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM386M-1_NOPB
+D Wide Input Voltage Low Power Audio Amplifier with Internal Gain
+F http://docs-emea.rs-online.com/webdocs/06e8/0900766b806e88be.pdf
+$ENDCMP
+#
+$CMP MIC4127YME
+D 1.5A 2xHigh Spd MOSFET Driver,MIC4127YME Micrel MIC4127YME, Dual MOSFET Power Driver 1.5A, 4.5  20 V, Non-Inverting, 8-Pin SOIC
+F http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-27-28-Data-Sheet-20006084A.pdf
+$ENDCMP
+#
+$CMP TC4427AEOA
+D Microchip TC4427AEOA, Dual MOSFET Power Driver 1.5A, 4.5  18 V, Non-Inverting, 8-Pin SOIC
+F https://componentsearchengine.com/Datasheets/2/TC4427AEOA.pdf
+$ENDCMP
+#
+#End Doc Library

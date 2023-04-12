@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "MIC4127YME"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-01-10-06:46:41)
+    (mountForm default
+        (footprintRef "SOIC127P602X168-9N")
+        (spec "System")
+    )
+)

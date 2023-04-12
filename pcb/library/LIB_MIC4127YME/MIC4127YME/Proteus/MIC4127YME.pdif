@@ -1,0 +1,146 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MIC4127YME"
+   (description "1.5A 2xHigh Spd MOSFET Driver,MIC4127YME Micrel MIC4127YME, Dual MOSFET Power Driver 1.5A, 4.5  20 V, Non-Inverting, 8-Pin SOIC")
+   (family "ANA")
+   (package "SOIC127P602X168-9N")
+   (attribute "Datasheet Link" "http://ww1.microchip.com/downloads/en/DeviceDoc/MIC4126-27-28-Data-Sheet-20006084A.pdf")
+   (attribute "Geometry.Height" "1.68mm")
+   (attribute "Manufacturer_Name" "Microchip")
+   (attribute "Manufacturer_Part_Number" "MIC4127YME")
+   (attribute "Arrow Part Number" "MIC4127YME")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/mic4127yme/microchip-technology")
+   (attribute "Mouser Part Number" "998-MIC4127YME")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=998-MIC4127YME")
+   (gate
+    (symbol "MIC4127YME")
+    (pin "NC_1" 1 PS)
+    (pin "INA" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "INB" 4 PS)
+    (pin "EP" 9 PS)
+    (pin "NC_2" 8 PS)
+    (pin "OUTA" 7 PS)
+    (pin "VS" 6 PS)
+    (pin "OUTB" 5 PS)
+   )
+  )
+  (symbol "MIC4127YME"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 600 -800) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P602X168-9N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.725 2.695)
+      (pt 3.725 2.695)
+      (pt 3.725 -2.695)
+      (pt -3.725 -2.695)
+      (pt -3.725 2.695))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 2.445)
+      (pt 1.95 2.445)
+      (pt 1.95 -2.445)
+      (pt -1.95 -2.445)
+      (pt -1.95 2.445))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 1.175)
+      (pt -0.68 2.445))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.475 2.58)
+      (pt -1.95 2.58))))
+   (leg 1 (pt -2.712 1.905) (padstack 0))
+   (leg 2 (pt -2.712 0.635) (padstack 0))
+   (leg 3 (pt -2.712 -0.635) (padstack 0))
+   (leg 4 (pt -2.712 -1.905) (padstack 0))
+   (leg 5 (pt 2.712 -1.905) (padstack 0))
+   (leg 6 (pt 2.712 -0.635) (padstack 0))
+   (leg 7 (pt 2.712 0.635) (padstack 0))
+   (leg 8 (pt 2.712 1.905) (padstack 0))
+   (leg 9 (pt 0 0) (padstack 9))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.525 0 0 0))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 2.41 3.1 0 0 90))
+   )
+   (model "MIC4127YME.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

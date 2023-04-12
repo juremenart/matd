@@ -1,0 +1,214 @@
+/*
+ *  Copyright (C) 2011 - 2014 Xilinx
+ *  Copyright (C) 2012 National Instruments Corp.
+ *
+ * This software is licensed under the terms of the GNU General Public
+ * License version 2, as published by the Free Software Foundation, and
+ * may be copied, distributed, and modified under those terms.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ */
+/dts-v1/;
+#include "zynq-7000.dtsi"
+
+/ {
+	model = "snickerdoodle black";
+	compatible = "xlnx,zynq-snickerdoodle-black", "xlnx,zynq-7000";
+
+	cpus {
+		cpu@0 {
+			operating-points = <
+				/* kHz	uV */
+				866667	1000000
+				433334	1000000
+			>;
+		};
+	};
+
+	aliases {
+		serial0 = &uart0;
+		spi0 = &qspi;
+		spi1 = &spi1;
+		mmc0 = &sdhci0;
+		mmc1 = &sdhci1;
+	};
+
+	memory@0 {
+		device_type = "memory";
+		reg = <0x0 0x40000000>;
+	};
+
+	chosen {
+		bootargs = "console=ttyPS0,115200n8 earlyprintk";
+		linux,stdout-path = &uart0;
+		stdout-path = &uart0;
+	};
+
+        wlan_en_reg: fixed-regulator-wlen {
+                compatible = "regulator-fixed";
+                regulator-name = "wlan-en-regulator";
+                regulator-min-microvolt = <1800000>;
+                regulator-max-microvolt = <1800000>;
+                gpio = <&gpio0 9 4>;
+                startup-delay-us = <70000>;
+                enable-active-high;
+        };
+
+};
+
+&clkc {
+	ps-clk-frequency = <33333333>;
+};
+
+&qspi {
+	u-boot,dm-pre-reloc;
+	status = "okay";
+	is-dual = <0>;
+	num-cs = <1>;
+	flash@0 {
+		compatible = "n25q128a11";
+		reg = <0x0>;
+		spi-tx-bus-width = <1>;
+		spi-rx-bus-width = <4>;
+		spi-max-frequency = <50000000>;
+		#address-cells = <1>;
+		#size-cells = <1>;
+		partition@qspi-fsbl-uboot {
+			label = "qspi-fsbl-uboot";
+			reg = <0x0 0x100000>;
+		};
+		partition@qspi-linux {
+			label = "qspi-linux";
+			reg = <0x100000 0x500000>;
+		};
+		partition@qspi-device-tree {
+			label = "qspi-device-tree";
+			reg = <0x600000 0x20000>;
+		};
+		partition@qspi-rootfs {
+			label = "qspi-rootfs";
+			reg = <0x620000 0x5E0000>;
+		};
+		partition@qspi-bitstream {
+			label = "qspi-bitstream";
+			reg = <0xC00000 0x400000>;
+		};
+	};
+};
+
+&sdhci0 {
+	status = "okay";
+};
+
+&uart0 {
+	status = "okay";
+};
+
+&sdhci1 {
+	status = "okay";
+	vmmc-supply = <&wlan_en_reg>;
+	bus-width = <4>;
+	cap-power-off-card;
+	keep-power-in-suspend;
+	#address-cells = <1>;
+	#size-cells = <0>;	
+
+        wlcore: wlcore@0 {
+        	compatible = "wlcore", "ti,wl1837";
+                reg = <2>;
+                interrupt-parent = <&gpio0>;
+                interrupts = <0 4>;
+        };
+
+};
+
+&spi1 {
+	status = "okay";
+	num-cs = <1>;
+};
+
+&qspi {
+	status = "okay";
+	is-dual = <0>;
+	num-cs = <1>;
+	xlnx,qspi-mode = <1>;
+
+	flash@0 {
+		compatible = "n25q128a11";
+		reg = <0x0>;
+		spi-tx-bus-width = <1>;
+		spi-rx-bus-width = <4>;
+		spi-max-frequency = <50000000>;
+		#address-cells = <1>;
+		#size-cells =<1>;
+		
+		partition@qspi-fsbl-uboot {
+			label = "qspi-fsbl-uboot";
+			reg = <0x0 0x80000>;
+		};
+
+		partition@qspi-linux {
+			label = "qspi-linux";
+			reg = <0x80000 0x400000>;
+		};
+
+		partition@qspi-device-tree {
+			label = "qspi-device-tree";
+			reg = <0x480000 0x10000>;
+		};
+
+		partition@qspi-rootfs {
+			label = "qspi-rootfs";
+			reg = <0x490000 0x8f0000>;
+		};
+
+		partition@qspi-bitstream {
+			label = "qspi-bitstream";
+			reg = <0xd80000 0x280000>;
+		};
+	};
+};
+
+/ {
+	__symbols__ {
+		regulator_vccpint = &regulator_vccpint;
+		wlan_en_reg = &wlan_en_reg;
+		adc = &adc;
+		can0 = &can0;
+		can1 = &can1;
+		gpio0 = &gpio0;
+		intc = &intc;
+		L2 = &L2;
+		mc = &mc;
+		ocmc = &ocmc;
+		uart0 = &uart0;
+		uart1 = &uart1;
+		spi0 = &spi0;
+		spi1 = &spi1;
+		qspi = &qspi;
+		smcc = &smcc;
+		nand0 = &nand0;
+		nor0 = &nor0;
+		gem0 = &gem0;
+		gem1 = &gem1;
+		sdhci0 = &sdhci0;
+		sdhci1 = &sdhci1;
+		wlcore = &wlcore;
+		slcr = &slcr;
+		clkc = &clkc;
+		rstc = &rstc;
+		pinctrl0 = &pinctrl0;
+		dmac_s = &dmac_s;
+		devcfg = &devcfg;
+		global_timer = &global_timer;
+		ttc0 = &ttc0;
+		ttc1 = &ttc1;
+		scutimer = &scutimer;
+		usb0 = &usb0;
+		usb1 = &usb1;
+		watchdog0 = &watchdog0;
+	};
+};

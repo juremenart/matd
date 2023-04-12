@@ -1,0 +1,9 @@
+Manufacturer=Microchip
+PartNumber=MIC4127YME
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2020-01-10 06:46:41
+Downloaded=2020-11-10 08:32:52
+3D=Y
