@@ -7,4 +7,5 @@ https://www.youtube.com/shorts/MVx3mwE5fvo
 https://www.youtube.com/shorts/kOz_UAl6hNY
 
 Levitation of 4 particles:
-![Alt text](relative%20path/media/acoustic_levitation_9.jpg?raw=true "Title")
+
+![Screenshot](media/acoustic_levitation_9.jpg?raw=true "Title")
